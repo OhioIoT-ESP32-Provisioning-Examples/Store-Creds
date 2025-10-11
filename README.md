@@ -2,7 +2,7 @@
 
 
 ## Overview
-This code serves is an output from the YouTube video [ESP32 Provisioning - Store Your Credentials](https://youtu.be/joSQdGQZj2Q).  👉 Subscribe to the [OhioIoT YouTube Channel](https://www.youtube.com/@OhioIoT?sub_confirmation=1) for more on All Things IoT: hardware, firmware, connectivity, cloud computing, and dev toolkit.
+This code serves is an output from the YouTube video [ESP32 Provisioning - Store Your Credentials](https://youtu.be/rn4CZpfgST4).  👉 Subscribe to the [OhioIoT YouTube Channel](https://www.youtube.com/@OhioIoT?sub_confirmation=1) for more on All Things IoT: hardware, firmware, connectivity, cloud computing, and dev toolkit.
 
 
 
