@@ -25,3 +25,6 @@ git clone https://github.com/OhioIoT-ESP32-Provisioning-Examples/Store-Creds.git
 ## About
 *OhioIoT is an IoT platform designed for small-scale IoT projects (https://www.ohioiot.com).*
 
+## Update
+10/13/25 - added some Serial.prints so that the provisioning SSID and IP address are confirmed for the user
+

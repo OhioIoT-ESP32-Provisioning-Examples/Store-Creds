@@ -16,6 +16,8 @@ void Provisioner::_start_provisioner() {
 
     Serial.println("\n  >> entering provisioning mode...\n");
 
+
+
     WiFi.mode(WIFI_AP);
     WiFi.softAP(AP_SSID);
 
@@ -25,6 +27,15 @@ void Provisioner::_start_provisioner() {
 
     _web_server.begin();
     _dns_server.start(53, "*", WiFi.softAPIP());
+
+    // These four lines below were added after the video.  
+    // I should have included them a long time ago.
+
+    Serial.println("\n     attach your device to SSID: ");
+    Serial.println(AP_SSID);
+
+    Serial.println("     navigate your browser to: ");
+    Serial.println(WiFi.softAPIP());
 
 }
 
