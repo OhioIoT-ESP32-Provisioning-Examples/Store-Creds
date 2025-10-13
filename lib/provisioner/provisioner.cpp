@@ -31,10 +31,10 @@ void Provisioner::_start_provisioner() {
     // These four lines below were added after the video.  
     // I should have included them a long time ago.
 
-    Serial.println("\n     attach your device to SSID: ");
+    Serial.print("     attach to network:    ");
     Serial.println(AP_SSID);
 
-    Serial.println("     navigate your browser to: ");
+    Serial.print("     navigate browser to:  ");
     Serial.println(WiFi.softAPIP());
 
 }
