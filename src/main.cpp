@@ -19,6 +19,7 @@ void setup() {
         storage.store_creds(ssid, pass);
     }
 
+    WiFi.mode(WIFI_STA);    // added 10/18/25 - see the bottom of README.md
     WiFi.begin(ssid, pass);
 
     while (WiFi.status() != WL_CONNECTED) {}
